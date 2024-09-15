@@ -1,1 +1,6 @@
 # Hand-Written-Digit-Recognition-using-CNN
+In this project, I dive into the classic problem of handwritten digit recognition using the MNIST dataset. The dataset includes 28x28 grayscale images of handwritten digits (0-9), and the goal is to classify these digits with high accuracy. I built a simple yet effective CNN that consists of convolutional layers, max-pooling, and fully connected layers, all designed to extract features and predict the correct digit. The model is trained and validated on a set of images, and I’ve also visualized both actual and predicted outputs for comparison.
+
+The dataset is preprocessed by normalizing pixel values, and the CNN model is designed using layers that gradually extract more complex patterns from the images. The Adam optimizer and sparse categorical crossentropy loss help to optimize the learning process. I trained the model for a set number of epochs while monitoring accuracy and loss to ensure that it’s learning properly. After training, I evaluated the model and achieved impressive accuracy in recognizing digits.
+
+What makes this project interesting is that it gives you a hands-on feel of how deep learning can be used for image classification tasks. You can experiment with different parameters or even try out more advanced techniques like data augmentation or deeper architectures for further exploration.
